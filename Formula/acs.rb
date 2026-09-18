@@ -41,6 +41,8 @@ class Acs < Formula
   test do
     out = shell_output("#{bin}/acs --version")
     assert_match "acs #{version} ", out
-    assert_match "x86_64-unknown-linux-musl, aarch64-unknown-linux-musl", out
+    remotes = out[/^installs remotes: (.*)$/, 1].to_s.split(", ")
+    assert_includes remotes, "x86_64-unknown-linux-musl"
+    assert_includes remotes, "aarch64-unknown-linux-musl"
   end
 end
