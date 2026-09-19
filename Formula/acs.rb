@@ -12,25 +12,25 @@ class Acs < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/michel-onstein/acs/releases/download/v0.10.16/acs-0.10.16-aarch64-apple-darwin.tar.gz"
-      sha256 "0dcdb53b543f384e7a75a2b87e2dc8212ae7eb92a7d19844f5fd63b3dda2b7e6"
+      url "https://github.com/michel-onstein/acs/releases/download/v0.10.17/acs-0.10.17-aarch64-apple-darwin.tar.gz"
+      sha256 "086b42b01317e48888a9e5e6a5bdd77c3ef822e200bb9c14398535a53b428bcc"
     end
 
     on_intel do
-      url "https://github.com/michel-onstein/acs/releases/download/v0.10.16/acs-0.10.16-x86_64-apple-darwin.tar.gz"
-      sha256 "8d4b3870abaff90c5ff4713470ca5151c06e1b49bdff2aae1107d12bd168f6c1"
+      url "https://github.com/michel-onstein/acs/releases/download/v0.10.17/acs-0.10.17-x86_64-apple-darwin.tar.gz"
+      sha256 "5656db0abcc06f964e3b99b60a16e54c26e4e4639ad82cfabe66bed4f601a34e"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/michel-onstein/acs/releases/download/v0.10.16/acs-0.10.16-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "55d8f0c26ce611a6ae8ac89f5851f428ef585645ebc7b7b6ef14d2564b22790c"
+      url "https://github.com/michel-onstein/acs/releases/download/v0.10.17/acs-0.10.17-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "d365dfaaed168765687ee720cb1daedf0ca761d8b8ba448268a9b70761661205"
     end
 
     on_intel do
-      url "https://github.com/michel-onstein/acs/releases/download/v0.10.16/acs-0.10.16-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "f4c3c318e23819f406fe0d5496a076bc629fd391757f71aef1c2f912fcd8a18d"
+      url "https://github.com/michel-onstein/acs/releases/download/v0.10.17/acs-0.10.17-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "fcfdc6f95956ceb4246fe5922115d00b44425775bbe646e5af22f73d543b9f81"
     end
   end
 
